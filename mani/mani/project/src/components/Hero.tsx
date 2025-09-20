@@ -61,7 +61,7 @@ export function Hero() {
                     className="w-full h-80 md:h-[500px] lg:h-[600px] object-cover rounded-2xl shadow-2xl"
                   /> */}
                   <img
-                    src="/profile.jpg"
+                    src="../public/profile.jpg"
                     alt="Mani Kanta - UI/UX Designer"
                     // className="w-full h-[600px] object-cover rounded-2xl shadow-2xl"
                     className="w-full h-80 md:h-[500px] lg:h-[600px] object-cover rounded-2xl shadow-2xl"
