@@ -1,5 +1,6 @@
 import React from 'react';
 import { ChevronDown, Download } from 'lucide-react';
+import profileImg from '../assets/WhatsApp Image 2025-09-12 at 14.30.17_7e67214e.jpg';
 
 export function Hero() {
   const scrollToAbout = () => {
@@ -61,7 +62,8 @@ export function Hero() {
                     className="w-full h-80 md:h-[500px] lg:h-[600px] object-cover rounded-2xl shadow-2xl"
                   /> */}
                   <img
-                    src="../public/profile.jpg"
+                    // src="../public/profile.jpg"
+                    src={profileImg}
                     alt="Mani Kanta - UI/UX Designer"
                     // className="w-full h-[600px] object-cover rounded-2xl shadow-2xl"
                     className="w-full h-80 md:h-[500px] lg:h-[600px] object-cover rounded-2xl shadow-2xl"
