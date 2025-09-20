@@ -33,7 +33,7 @@ export function Hero() {
                 Crafting exceptional digital experiences through innovative design and cutting-edge development.
                 Transforming ideas into reality with passion and precision.
               </p>
-              
+
               <div className="flex flex-col sm:flex-row gap-6 justify-center lg:justify-start items-center">
                 <button
                   onClick={scrollToAbout}
@@ -55,18 +55,24 @@ export function Hero() {
             <div className="relative">
               <div className="relative z-10 max-w-md mx-auto lg:max-w-none">
                 <div className="relative">
-                  <img
+                  {/* <img
                     src="/src/assets/WhatsApp Image 2025-09-12 at 14.30.17_7e67214e.jpg"
                     alt="Manikanta - UI/UX Designer & Developer"
+                    className="w-full h-80 md:h-[500px] lg:h-[600px] object-cover rounded-2xl shadow-2xl"
+                  /> */}
+                  <img
+                    src="/profile.jpg"
+                    alt="Mani Kanta - UI/UX Designer"
+                    // className="w-full h-[600px] object-cover rounded-2xl shadow-2xl"
                     className="w-full h-80 md:h-[500px] lg:h-[600px] object-cover rounded-2xl shadow-2xl"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-navy-900/20 to-transparent rounded-2xl"></div>
                 </div>
               </div>
-              
+
               {/* Background decoration */}
               <div className="absolute top-8 left-8 w-full h-full bg-gold-200 rounded-2xl -z-10"></div>
-              
+
               {/* Floating badges */}
               <div className="hidden md:block absolute -top-4 -right-4 bg-white p-4 rounded-xl shadow-lg">
                 <div className="text-center">
